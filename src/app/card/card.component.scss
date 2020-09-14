@@ -1,0 +1,87 @@
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.title-card {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.emoji {
+  background-color: transparent;
+  max-width: 150px;
+}
+
+.message {
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 7px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  border-color: transparent;
+  outline: none;
+}
+
+.mat-button {
+  white-space: normal;
+  line-height: normal;
+}
+
+#card1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #dcf590;
+  height: auto;
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+              0 2px 2px rgba(0,0,0,0.12),
+              0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+#card2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffbb33;
+  height: auto;
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+              0 2px 2px rgba(0,0,0,0.12),
+              0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+
+#card3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e64d3c;
+  height: auto;
+  width: 200px;
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+              0 2px 2px rgba(0,0,0,0.12),
+              0 4px 4px rgba(0,0,0,0.12),
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}

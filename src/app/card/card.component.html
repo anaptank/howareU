@@ -1,0 +1,27 @@
+<h2>How are you today?</h2>
+
+<div id="cards" fxLayout="row wrap">
+  <mat-card id="card1">
+    <mat-card-title class="title-card">Happy</mat-card-title>
+    <img class="emoji" src="../../../../../assets/images/happyEmoji.svg" alt="Happy Emoji">
+    <mat-card class="message">
+      <button mat-button (click)="openDialog('happyComponent')">If you are feeling this way today, click here to see a message.</button>
+    </mat-card>
+  </mat-card>
+
+  <mat-card id="card2">
+    <mat-card-title  class="title-card">So so</mat-card-title>
+    <img class="emoji" src="../../../../../assets/images/neutralEmoji.svg" alt="Happy Emoji">
+    <mat-card class="message">
+      <button mat-button (click)="openDialog('sosoComponent')">If you are feeling this way today, click here to see a message.</button>
+    </mat-card>
+  </mat-card>
+
+  <mat-card id="card3">
+    <mat-card-title  class="title-card">Bad</mat-card-title>
+    <img class="emoji" src="../../../../../assets/images/sadEmoji.svg" alt="Happy Emoji">
+    <mat-card class="message">
+      <button mat-button (click)="openDialog('sadComponent')">If you are feeling this way today, click here to see a message.</button>
+    </mat-card>
+  </mat-card>
+</div>
