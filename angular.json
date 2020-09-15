@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projectAna": {
+    "howareU": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/projectAna",
+            "outputPath": "dist/howareU",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "projectAna:build"
+            "browserTarget": "howareU:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "projectAna:build:production"
+              "browserTarget": "howareU:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "projectAna:build"
+            "browserTarget": "howareU:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "projectAna:serve"
+            "devServerTarget": "howareU:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "projectAna:serve:production"
+              "devServerTarget": "howareU:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "projectAna"
+  "defaultProject": "howareU"
 }
